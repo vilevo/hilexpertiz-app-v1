@@ -125,11 +125,11 @@ nous vous souhaitons une belle expérience.">
                         <div class="single-widget links">
                             <h2>Suppport et Communauté</h2>
                             <ul class="list">
-                                <li><a href="https://wa.me/22891325637"><i class="fa fa-whatsapp"></i>Rejoignez-nous sur Whatsapp</a></li>
-                                <li><a href="https://www.facebook.com/228PIS"><i class="fa fa-facebook"></i>Rejoignez-nous sur Facebook</a></li>
-                                <li><a href="https://www.instagram.com/pis_formation/"><i class="fa fa-instagram"></i>Rejoignez-nous sur Instagram</a></li>
-                                <li><a href="https://t.me/joinchat/dvWirhWMXqI4MWU0"><i class="fa fa-telegram"></i>Rejoignez-nous sur Telegram</a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i>Rejoignez-nous sur Twitter</a></li>
+                                <li><a href="https://www.instagram.com/hilexpertiz" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                                <li><a href="https://wa.me/22892033531" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCXLkUywBscVaQM3280OwYAw" target="_blank"><i class="fab fa-youtube"></i> Youtube</a></li>
+                                <li><a href="https://www.facebook.com/hilexpertiz" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                                <li><a href="https://discord.gg/Cy76mjhS" target="_blank"><i class="fab fa-discord"></i> Twitter</a></li>
                             </ul>
                         </div>
                         <!--/ End Links Widget -->

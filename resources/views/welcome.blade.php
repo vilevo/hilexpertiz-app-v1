@@ -1,16 +1,16 @@
 @extends('layouts.app')
 @section('title')
-Hil Expertiz | Formez - vous aux nouvelles technologies
+Tutoriels et Formations sur les nouvelles technologies - HilExpertiz
 @endsection
 @section('content')
 <section class="banniere">
-    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="container col-xl-10 col-xxl-8 px-4 py-3">
         <div class="row align-items-center g-lg-5 py-2">
             <div class="col-lg-7 text-center text-lg-start">
                 <h1 class="display-4 fw-bold lh-1 mb-3" style="color: #000;">La clé de votre succès est ici</h1>
                 <p class="col-lg-10 fs-4" style="color: #000;">Apprenez de nouvelles technologies. Améliorez vos compétences. Et devenez financièrement independant.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a href="#" class="btn-he">Commencer</a>
+                    <a href="{{route('parcours')}}" class="btn-he">Commencer</a>
                     <a href="#" class="btn-opacity">En savoir plus</a>
                 </div>
             </div>
