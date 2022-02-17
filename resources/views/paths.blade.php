@@ -58,7 +58,7 @@ Formation aux nouvelles technologies - HilExpertiz
                         <!-- The form -->
                         <div class="col-md-12">
                             <form action="" style="display: flex;">
-                                <div class="custom-select" style="width:260px;">
+                                <div class="custom-select select-cat" style="width:260px;">
                                     <select>
                                         <option value="0">catégories (parcours)</option>
                                         <option value="1">Tout</option>
@@ -67,7 +67,7 @@ Formation aux nouvelles technologies - HilExpertiz
                                         <option value="4">Tutoriels</option>
                                     </select>
                                 </div>
-                                <div class="custom-select" style="width:110px; margin-left: 1rem">
+                                <div class="custom-select select-th" style="width:110px; margin-left: 1rem">
                                     <select>
                                         <option value="0">Thème</option>
                                         <option value="1">Développement</option>

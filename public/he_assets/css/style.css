@@ -764,7 +764,7 @@ Responsive
         text-transform: inherit;
     }
     .get-in-touch .jumbotron-container .jumbotron-button .btn-he {
-        max-width: 55%;
+        max-width: 70%;
     }
     /*
     * end get-in-touch
@@ -785,6 +785,13 @@ Responsive
     }
     .courses .course-categorie .custom-select {
         max-width: 70%;
+    }
+    .courses .course-categorie .custom-select {
+        max-width: 50%;
+    }
+    .courses .course-categorie .course-product,
+    .card {
+        max-width: 100%;
     }
     /*
     * footer
