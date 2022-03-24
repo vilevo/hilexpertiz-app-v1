@@ -21,7 +21,7 @@ Route::get('/parcours', function () {
 })->name('parcours');
 Route::get('/course-detail', function () {
     return view('course_detail');
-})->name('course.detail');
+})->name('course_detail');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

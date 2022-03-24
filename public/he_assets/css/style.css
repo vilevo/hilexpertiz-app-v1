@@ -116,7 +116,6 @@ a:active {
     -moz-box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
-
 /*Bread Crumbs */
 .entete {
     position: relative;
@@ -566,7 +565,6 @@ End get-in-touch
 /*=========
 End courses
 ===========*/
-
 /*=======================
   05.1 courses features CSS
 =========================*/
@@ -687,7 +685,6 @@ End courses
     border-top: none;
 }
 /*=======================
-
 /*=======================
  Footer CSS
 =========================*/
@@ -913,7 +910,7 @@ Responsive
         text-transform: inherit;
     }
     .get-in-touch .jumbotron-container .jumbotron-button .btn-he {
-        max-width: 50%;
+        max-width: 70%;
     }
     /*
     * end get-in-touch

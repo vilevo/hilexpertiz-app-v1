@@ -99,8 +99,8 @@ Formation aux nouvelles technologies - HilExpertiz
                     <div class="card">
                         <img src="{{asset('he_assets/img/courses_fields/programming.png')}}" alt="Avatar">
                         <div class="card-container">
-                            <h4><b><a href="{{route('course.detail')}}">John Doe</a></b></h4>
-                            <p>Architect & Engineer</p>
+                            <h4><b>John Doe</b></h4>
+                            <p><a href="{{route('course_detail')}}">Architect & Engineer</a></p>
                             <ul>
                                 <li><i class="fas fa-chalkboard-teacher"></i> Développement</li>
                                 <li><i class="fas fa-chalkboard-teacher"></i> 12 mois</li>
@@ -189,7 +189,7 @@ Formation aux nouvelles technologies - HilExpertiz
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-md-7">
-                    <h2>Un mentor dédié pour vous</h2>
+                    <h2>Des formation innonvantes</h2>
                     <p>Devenez qui vous voulez être avec Hil Expertiz.
                         Choisissez votre parcours.
                         Suivez une <a href="#">formation constituée de projets professionnalisants</a> et de séances individuelles avec un mentor dédié chaque semaine.
