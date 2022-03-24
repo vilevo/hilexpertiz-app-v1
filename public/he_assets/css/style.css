@@ -117,6 +117,33 @@ a:active {
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
+/*Bread Crumbs */
+.entete {
+    position: relative;
+    text-align: left;
+}
+.entete .bread-list {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 0px;
+}
+.entete ul li {
+    display: inline-block;
+    position: relative;
+}
+.entete ul li a {
+    color: #212833;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.entete ul li.active a {
+    font-weight: 400;
+}
+.entete ul li i {
+    margin-left: 5px;
+}
+
 .section {
     padding: 20px;
 }
@@ -145,7 +172,8 @@ End Header
 2. Banniere
 ===========*/
 .banniere,
-.heroe {
+.heroe,
+.entete {
     background-color: #e6ebff;
 }
 .banniere p {
@@ -540,6 +568,127 @@ End courses
 ===========*/
 
 /*=======================
+  05.1 courses features CSS
+=========================*/
+.courses-features {
+    background: #fff;
+}
+
+.courses-features .single-features {
+    background: #fff;
+    padding: 20px 20px 20px 72px;
+    position: relative;
+    /* -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3); */
+    margin-top: 30px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.courses-features .single-features:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.courses-features .single-features:hover:before {
+    width: 100%;
+}
+.courses-features .single-features .icon i {
+    font-size: 32px;
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color: #0026b6;
+    border: 1px solid transparent;
+    top: 48px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.courses-features .single-features:hover .icon i {
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    transform: translateX(-200%);
+}
+.courses-features .single-features .icon.two i {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.courses-features .single-features:hover .icon.two i {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.courses-features .single-features h2 {
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+.courses-features .single-features h2 a {
+    color: #353535;
+}
+
+/*=======================
+  End courses features CSS
+=========================*/
+
+/*=======================
+  19.1 Aperçu
+  ======================*/
+/* Style the tab */
+.aperçue .tab {
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ffa300;
+}
+
+/* Style the buttons that are used to open the tab content */
+.aperçue .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+/* Change background color of buttons on hover */
+.aperçue .tab button:hover {
+    color: #ff3300;
+}
+
+/* Create an active/current tablink class */
+.aperçue .tab button.active {
+    border-bottom: 3px solid #ff3300;
+    color: #ff3300;
+    font-weight: bold;
+}
+
+/* Style the tab content */
+.aperçue .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+/*=======================
+
+/*=======================
  Footer CSS
 =========================*/
 .footer .footer-top {
@@ -764,7 +913,7 @@ Responsive
         text-transform: inherit;
     }
     .get-in-touch .jumbotron-container .jumbotron-button .btn-he {
-        max-width: 70%;
+        max-width: 50%;
     }
     /*
     * end get-in-touch
