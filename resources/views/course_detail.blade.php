@@ -208,6 +208,29 @@ Formation aux nouvelles technologies - HilExpertiz
     </section>
     <!-- Fin get-in-touch -->
 
+    <!-- Debut get-in-touch -->
+    <section class="get-in-touch section">
+        <div class="container">
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-md-6 img-container">
+                    <img class="rounded-circle" src="{{asset('he_assets/img/cct.png')}}" alt="Generic placeholder image">
+                </div>
+                <div class="col-md-6 jumbotron-container">
+                    <div class="jumbotron">
+                        <h2>Nous sommes là pour vous orienter</h2>
+                        <p>Notre équipe est à votre écoute pour vous aider à choisir la formation qu’il vous faut, du lundi au vendredi de 8h à 18h GMT.</p>
+                        <div class="jumbotron-button">
+                            <a href="../../components/navbar/" class="btn-he"><i class="far fa-envelope"></i></i> Nous écrire</a>
+                            <a href="../../components/navbar/" class="btn-opacity"><i class="fab fa-whatsapp"></i> Chat direct</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.row -->
+    </section>
+    <!-- Fin get-in-touch -->
+
 </div>
 @endsection
 
